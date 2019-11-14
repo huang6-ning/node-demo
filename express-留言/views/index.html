@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" 
+    href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+    crossorigin="anonymous">
+    <style>
+        .app{
+            margin:auto;
+            width:800px;
+            height:1000px;
+            border:1px solid red;
+            border-radius:5%;
+            padding:1%;
+        }
+    </style>
+</head>
+<body>
+    <div class="app">
+            <hr>
+            <h2>留言板</h2>
+            <hr>
+            <!-- 简化URL -->
+            <a href="/post" class="btn btn-success">点击留言</a><hr>
+            <div class="bs-example" data-example-id="list-group-badges">
+                <ul class="list-group">
+                    {{each}}
+                    <li class="list-group-item">
+                        <span class="badge">{{$value.time}}</span>
+                        <span class="badge">{{$value.name}}</span>
+                        {{$value.msg}}
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+    </div>
+</body>
+</html>
+

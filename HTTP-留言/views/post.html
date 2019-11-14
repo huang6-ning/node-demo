@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        .app {
+            margin: auto;
+            width: 800px;
+            height: 1000px;
+            border: 1px solid red;
+            border-radius: 5%;
+            padding: 1%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app">
+        <div class="page-header">
+            <h1><a href="/">首页</a><small> 留言</small></h1><br>
+
+        </div>
+        <form action="/pinglun" method="get">
+            <div class="form-group">
+                <label for="exampleInputEmail1">名字</label>
+                <input type="text" name="name" class="form-control" required minlength="3" placeholder="your name">
+            </div>
+            <textarea name="msg" hclass="form-control" rows="3" required minlength="5" maxlength="20"></textarea>
+            <hr>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

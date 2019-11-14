@@ -1,0 +1,14 @@
+{
+    "students" :[
+        {"id": 1, "name": "小白", "xuehao": 201561361351, "gender": 1, "core": 88},
+        {"id": 2, "name": "小黑", "xuehao": 201561361352, "gender": 0, "core": 85},
+        {"id": 3, "name": "小绿", "xuehao": 201561361353, "gender": 0, "core": 88},
+        {"id": 4, "name": "小红", "xuehao": 201561361354, "gender": 1, "core": 95},
+        {"id": 5, "name": "小蓝", "xuehao": 201561361355, "gender": 0, "core": 88},
+        {"id": 6, "name": "小青", "xuehao": 201561361356, "gender": 1, "core": 70},
+        {"id": 7, "name": "小橙", "xuehao": 201561361357, "gender": 0, "core": 88},
+        {"id": 8, "name": "小黄", "xuehao": 201561361358, "gender": 1, "core": 60},
+        {"id": 9, "name": "小紫", "xuehao": 201561361359, "gender": 0, "core": 88},
+        {"id": 10, "name": "小明", "xuehao": 201561361350, "gender": 0, "core": 150}
+    ]
+}
