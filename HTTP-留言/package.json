@@ -12,6 +12,6 @@
     "art-template": "^4.13.2",
     "boostrap": "^2.0.0",
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
